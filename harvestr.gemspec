@@ -74,7 +74,7 @@ Gem::Specification.new do |s|
     end
   else
     s.add_dependency(%q<mash>, ["= 0.0.3"])
-    s.add_dependency(%q<httparty>, ["= 0.4.3"])
+    s.add_dependency(%q<httparty>, [">= 0.8.0"])
     s.add_dependency(%q<thoughtbot-shoulda>, [">= 0"])
     s.add_dependency(%q<jeremymcanally-matchy>, [">= 0"])
     s.add_dependency(%q<mocha>, [">= 0"])
